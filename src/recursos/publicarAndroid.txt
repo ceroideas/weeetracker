@@ -1,0 +1,11 @@
+
+Compilar: 
+
+ionic cordova build android --release --prod
+
+
+Pass de la Firma : LKS-2020
+
+copy app-release-unsigned.apk app-release-signed.apk
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore weeetracker.keystore app-release-signed.apk weeetracker
+zipalign -v 4 app-release-signed.apk WeeeTracker.apk

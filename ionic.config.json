@@ -1,0 +1,7 @@
+{
+  "name": "weeetracker",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,351 @@
+@font-face{
+    font-family: 'Varela Round';
+    src : url('../assets/fonts/varelaRound.woff2');
+}
+[text-center] {
+    text-align: center;
+}
+*{
+    font-family: 'Varela Round' !important;
+}
+
+ion-icon{
+    font-size: 3rem !important;
+}
+
+ion-select{
+    color: white;
+}
+
+/* Footer */
+
+ion-footer{
+    height: auto;
+}
+
+ion-footer{
+    text-align: center;
+}
+
+ion-footer ion-icon{
+    color: white;
+}
+
+ion-footer{
+    max-height: 75px;
+    height: 100%;
+}
+
+ion-footer img{
+    width: 30%;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 32px;
+}
+
+.ios ion-footer ion-buttons ion-icon{
+    color : black;
+}
+
+.ios ion-buttons ion-button{
+    color : black;
+}
+ion-footer ion-buttons{
+    height: 9vh;
+}
+ion-footer ion-button{
+    height: auto !important;
+    margin: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+ion-footer .izquierda{
+    position: absolute;
+    top: 40px !important;
+    padding-left: 0 !important;
+    left: 15px;
+}
+ion-footer .centrar{
+    position: absolute;
+    top: 40px !important;
+    right: 55px;
+}
+
+
+.toggleLabel{
+    display: contents;
+}
+
+/* Firma */
+signature-pad{
+    canvas{
+        border: 1px solid black !important;
+        width: 90%; height: 75% !important;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+        background: white;
+    }
+}
+.modalFirma .modal-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Modal visor imagenes */
+
+.modalImg .modal-wrapper{ 
+    height: 60% !important;
+    width: 80% !important;
+}
+
+.derecha{
+    position: absolute;
+    top:40px !important;
+    right: 15px;
+}
+
+.centro{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.toggle{
+    display: contents !important;
+}
+ion-radio{
+    margin-right: 5px !important;
+}
+
+.tabla{
+    border: 1px solid black;
+    padding: 0!important
+}
+
+// .tabla ion-row:nth-child(odd){
+//     background-color: #0D553E;
+// }
+
+.tabla ion-row{
+    //background-color: rgba(25,229,198,0.7);
+    background-color: white;
+    margin: 3px;
+    color: black;
+}
+
+.tabla{
+    background: white;
+}
+
+.error{
+    color: red;
+    width: 100%;
+}
+
+.cabecera ion-col{
+    background-color: white !important;
+    color: black;
+}
+
+ion-toggle{
+    padding: 6px;
+}
+
+/* Tablas */
+.tabla ion-col{
+    font-size: 3vw;
+}
+
+.cabecera ion-col {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+
+/* Texto Responsivo */
+ion-label{
+    font-size: 3vw !important;
+    opacity: 1 !important;
+}
+form p{
+    font-size: 3vw !important;
+}
+ion-input , ion-select, ion-textarea {
+    font-size: 4vw !important;
+}
+
+//Corregir scroll ios 
+.action-sheet-group.sc-ion-action-sheet-ios {
+    overflow: auto !important;
+}
+button.action-sheet-button.ion-activatable.action-sheet-.sc-ion-action-sheet-md {
+    font-size: 15px;
+    height: 35px;
+}
+button.action-sheet-button.ion-activatable.action-sheet-.sc-ion-action-sheet-ios {
+    font-size: 15px;
+    height: 35px;
+}
+// Aviso reutilizable
+.aviso .alert-wrapper{
+    height : 75% !important;
+}
+.aviso .alert-message{
+    min-height: 75% !important;
+    font-size: 4vw;
+}
+
+ion-list{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+ion-item{
+    --background: transparent !important;
+}
+ion-footer .imgLogin {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+   // top: -40px;
+    transform: translateX(-50%);
+}
+
+ion-label{
+    color: white !important;
+}
+
+.ios ion-label{
+    margin: 0px !important;
+}
+
+ion-footer , ion-header{
+    background: #0D8B7A !important;
+    z-index: 150;
+}
+
+ion-input , ion-textarea {
+    --background: white !important;
+    margin-top: 20px !important;
+}
+
+ion-select{
+    background: white !important;
+    margin-top: 20px;
+    color: black;
+    padding: 9px;
+}
+
+.ios ion-input, .ios ion-textarea, .ios ion-selec{
+    margin-top : 35px !important;
+}
+
+input {
+    padding: 9px !important;
+}
+
+.keyboard-is-open ion-footer {
+    display: none !important;
+}
+
+.ios ion-buttons ion-button{
+    color: white !important;
+}
+
+.ios ion-footer ion-buttons ion-icon {
+    color: white;
+}
+
+.ios ion-footer{
+    padding-bottom: 3%;
+}
+
+.ios ion-inpu{
+    padding: 0 9px !important;
+}
+
+.ios .boton{
+    --background-activated: #0a4432;
+}
+.boton{
+    --background: #0D553E;
+}
+
+span ion-img{
+    width: 12vw;
+    height: 11vw;
+}
+
+ion-col{
+    padding-top: 0!important;
+}
+
+ion-item{
+    margin-top: 0!important;
+}
+
+@media only screen and (min-width: 600px) {
+    ion-toggle{
+        zoom: 1.5;
+    }
+    ion-avatar{
+        zoom: 1.5;
+    }
+    .alert-wrapper.sc-ion-alert-md {
+        transform: scale(2) !important;
+    }
+    .aviso .alert-wrapper{
+        transform: scale(1) !important;
+        min-width: 75%;
+    }   
+    .aviso .alert-head{
+        height: 10%;
+        padding: 5%;
+    }
+    
+    .aviso .alert-head h2{
+        font-size: 4vw;
+    }
+
+    .aviso button{
+        font-size: 3vw !important;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)  {
+      ion-footer{
+          min-height: 120px;
+      }
+      .derecha{
+          top:50px !important;
+      }
+      ion-footer .izquierda{
+          top: 50px !important;
+      }
+      ion-footer img{
+          bottom: 60px;
+      }
+      ion-footer .centrar{
+          top: 49px !important;
+          right: 120px;
+      }
+  }
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .derecha{
+        top:30px !important;
+    }
+    ion-footer .izquierda{
+        top: 30px !important;
+    }
+    ion-footer img{
+        bottom: 55px;
+    }
+}
